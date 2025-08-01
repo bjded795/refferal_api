@@ -6,7 +6,7 @@ from googlesearch import search
 import google.generativeai as genai
 import requests, re, time
 from datetime import datetime
-
+import os
 app = Flask(__name__)
 
 # === GEMINI SETUP ===
